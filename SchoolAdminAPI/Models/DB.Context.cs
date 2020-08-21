@@ -18,6 +18,7 @@ namespace SchoolAdminAPI.Models
         public SchoolAdminAPIC_dbEntities()
             : base("name=SchoolAdminAPIC_dbEntities")
         {
+            this.Configuration.LazyLoadingEnabled = false;
         }
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
