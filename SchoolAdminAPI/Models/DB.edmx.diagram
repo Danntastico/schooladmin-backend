@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b2fc3b3bafd745458ffdfcf98de1ede9" Name="Diagram1">
+        <EntityTypeShape EntityType="SchoolAdminAPIC_dbModel.course" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolAdminAPIC_dbModel.student" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolAdminAPIC_dbModel.stuntendsCourse" Width="1.5" PointX="5.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolAdminAPIC_dbModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolAdminAPIC_dbModel.teacher" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="SchoolAdminAPIC_dbModel.FK_course_teacher" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolAdminAPIC_dbModel.FK_stuntendsCourse_course" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolAdminAPIC_dbModel.FK_stuntendsCourse_student" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
